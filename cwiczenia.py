@@ -2032,3 +2032,5 @@ a "s" nie ma dostępu. Dzięki cls mamy dostęp do klasy.'''
 # print(samochod.SumCar)
 
 
+import time
+time.sleep(5)
