@@ -2034,5 +2034,4 @@ a "s" nie ma dostępu. Dzięki cls mamy dostęp do klasy.'''
 
 import time
 time.sleep(10)
-print("dupa")
-
+print("waz")
