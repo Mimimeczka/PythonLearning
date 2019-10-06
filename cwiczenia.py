@@ -1289,6 +1289,12 @@ import random
 
 
 
+import time
+for odliczanie in range(0, 31):
+    print(30 - odliczanie)
+    time.sleep(1)
+
+
 # lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 # suma = 0
 # for x in lista:
@@ -2032,8 +2038,4 @@ a "s" nie ma dostępu. Dzięki cls mamy dostęp do klasy.'''
 # print(samochod.SumCar)
 
 
-import time
-time.sleep(10)
-print("waz")
-print("dupa")
-print("dupa2")
+
