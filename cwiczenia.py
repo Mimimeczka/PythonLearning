@@ -2038,4 +2038,6 @@ a "s" nie ma dostępu. Dzięki cls mamy dostęp do klasy.'''
 # print(samochod.SumCar)
 
 
+print("test1")
+print("test2")
 
