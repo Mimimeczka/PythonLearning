@@ -1,0 +1,14 @@
+alarm: waiting for job
+alarm: waiting for job
+error: timeout
+action: get status
+alarm: waiting for job
+alarm: waiting for job
+error: timeout
+action: get status
+alarm: waiting for job
+alarm: waiting for job
+error: timeout
+action: call operator
+
+do zadania generatory.py/grupowanie danych

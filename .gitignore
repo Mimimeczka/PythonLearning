@@ -1,0 +1,10 @@
+*.zip
+*.txt
+.coverage
+*.csv
+*/.pytest_cache
+*/.coverage
+*/.pytest_cache
+.idea
+.DS_Store
+

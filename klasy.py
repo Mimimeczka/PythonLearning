@@ -275,20 +275,40 @@
 # samochod.HowManyCar()
 
 
-# # '''INACZEJ'''
-#
-# class Car:
-#     SumCar = 0
-#     @classmethod
-#     def __init__(cls, self, brand):
-#         self.brand = brand
-#         cls.SumCar += 1
-#
-#
-# samochod = Car(Car, "fiat")
-# samochod2 = Car(Car, "fiat")
-# samochod3 = Car(Car, "fiat")
-# print(samochod.SumCar)
+# '''INACZEJ'''
+
+class Car:
+    SumCar = 0
+    @classmethod
+    def __init__(cls, self, brand):
+        self.brand = brand
+        cls.SumCar += 1
+
+
+class A:
+    pass
+
+a = A()
+
+samochod = Car(a, "fiat")
+samochod2 = Car(a, "srat")
+samochod3 = Car(Car, "dupa")
+
+print(a.brand)
+
+
+a.qwert = 8
+
+
+
+
+
+
+
+
+
+
+
 
 
 
